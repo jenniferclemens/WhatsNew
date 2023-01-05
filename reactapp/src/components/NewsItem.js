@@ -20,7 +20,7 @@ function NewsItem(props) {
         </a>
       </b>
       &nbsp;
-      <small>{domain.hostname == "localhost" ? null : domain.hostname}</small>
+      <small>{domain.hostname === "localhost" ? null : domain.hostname}</small>
       <br />
       <small style={{ color: "#808080" }}>
         {props.item.points} points | By {props.item.author}

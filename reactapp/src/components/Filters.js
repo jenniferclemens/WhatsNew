@@ -24,7 +24,7 @@ function Filters() {
         <Input id="exampleSelect" name="select" type="select">
           {value.map((opt) => {
             console.log(opt);
-            <option>{opt}</option>;
+            return <option>{opt}</option>;
           })}
         </Input>;
 
