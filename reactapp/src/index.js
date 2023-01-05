@@ -14,7 +14,7 @@ root.render(
         <Route
           path="/past"
           element={
-            <App p="tags=story&numericFilters=created_at_i<2006-10-09T18:21:51.000Z" />
+            <App p="numericFilters=created_at_i<2022-01-01T01:01:01.000Z" />
           }
         />
         <Route path="/comments" element={<App p="tags=comment" />} />
