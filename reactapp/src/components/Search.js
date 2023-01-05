@@ -1,13 +1,15 @@
+import React from "react";
+import Navi from "./Navi";
+import List from "./List";
+import SearchBar from "./SearchBar";
+import { Container } from "reactstrap";
 import { useEffect, useState } from "react";
-import Navi from "./components/Navi";
-import List from "./components/List";
-import { Container, Spinner } from "reactstrap";
 
-function App(props) {
+function Search() {
   const base = "http://hn.algolia.com/api/v1/search_by_date?";
   const [news, setNews] = useState();
-  const [param, setParam] = useState(props.p);
-  const [url, setUrl] = useState(base + param + "&hitsPerPage=30");
+  const [param, setParam] = useState();
+  const [url, setUrl] = useState();
 
   useEffect(() => {
     fetch(url, {})
@@ -22,14 +24,14 @@ function App(props) {
   }, []);
 
   return (
-    <div className="App">
+    <div className="Search">
       <Container className="bg-light border" fluid="md">
         <Navi />
-        {!news && <Spinner className="m-5" />}
+        <SearchBar />
         {news && <List news={news} />}
       </Container>
     </div>
   );
 }
 
-export default App;
+export default Search;
