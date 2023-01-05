@@ -1,0 +1,222 @@
+{
+	"id": "0ddd8e65-598a-4619-adf0-ef79358221ed",
+	"name": "New Collection",
+	"timestamp": "2023-01-05T10:57:02.797Z",
+	"collection_id": "25197852-4ac13d28-0a7f-4587-ac33-47cf0bf45432",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "415c6955-e42e-46ee-883d-27609e2dcdf5",
+			"name": "HomePage",
+			"time": 291,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				340,
+				291
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "836c9a1c-4c02-4f76-8200-9c0415fed4a7",
+			"name": "News",
+			"time": 278,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				319,
+				278
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "6d25c5b4-e284-421d-9480-543bfad60318",
+			"name": "Comments",
+			"time": 288,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				333,
+				288
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "8a6186f9-0333-40c8-86f5-93d2ab048aa8",
+			"name": "AskHN",
+			"time": 298,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				310,
+				298
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "f116afc5-1fff-476e-918d-7d098e114831",
+			"name": "ShowHN",
+			"time": 288,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				303,
+				288
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "fba1acb4-3238-4264-9b98-b091af47b36e",
+			"name": "Jobs",
+			"time": 281,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				281,
+				281
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 3610,
+	"collection": {
+		"requests": [
+			{
+				"id": "415c6955-e42e-46ee-883d-27609e2dcdf5",
+				"method": "GET"
+			},
+			{
+				"id": "836c9a1c-4c02-4f76-8200-9c0415fed4a7",
+				"method": "GET"
+			},
+			{
+				"id": "6d25c5b4-e284-421d-9480-543bfad60318",
+				"method": "GET"
+			},
+			{
+				"id": "8a6186f9-0333-40c8-86f5-93d2ab048aa8",
+				"method": "GET"
+			},
+			{
+				"id": "f116afc5-1fff-476e-918d-7d098e114831",
+				"method": "GET"
+			},
+			{
+				"id": "fba1acb4-3238-4264-9b98-b091af47b36e",
+				"method": "GET"
+			}
+		]
+	}
+}
